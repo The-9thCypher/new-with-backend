@@ -1,0 +1,131 @@
+
+.header{
+    display: flex;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.webname{
+    color: rgb(180, 93, 180) ;
+    font-family: cursive;
+    font-size: auto;
+  }
+
+nav{
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: cursive;
+}
+
+div nav a:hover{
+    color: red;
+    transition-duration: .5s;
+}
+
+@media screen and (width: 280px) {
+    .header{
+        display: block;
+        font-size: 13px;
+    }
+    nav{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 540px) {
+   .header{
+    display: block;
+   } 
+   nav{
+    padding-left: 0px;
+    padding-top: 0px;
+   }
+}
+
+@media screen and (min-width:768px) and (max-width: 912px) {
+    .header{
+        display: block;
+    }
+    nav{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+}
+@media screen and (width: 1024px) {
+    .header{
+        display: block;
+    }
+    nav{
+        padding-left: 20px;
+        padding-top: 0px;
+    }
+}
+
+body{
+    background-image: url(61569391-modern-background-with-plexus-style-perfect-for-website-or-banner-backgrounds-or-as-a-wallpaper.webp);
+}
+
+
+h3.login{
+    color: #000;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.avatar{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    padding-top: 10px;
+}
+
+
+.loginbox input{
+    margin-bottom: 20px;
+}
+
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1.5px solid #000;
+    background: transparent;
+    outline: none;
+    height: auto;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+::placeholder{
+    color: #000;
+    font-family: cursive;
+}
+
+.login-button{
+    background-color: coral;
+    color: #000;
+    font-size: 20px;
+    font-family: cursive;
+    border-color: #fff;
+    border-radius: 30px;
+    height: 40px;
+    width: 170px;
+    cursor: pointer;
+}
+
+div.loginbox{
+    background-color: transparent;
+    width: auto;
+}
+
+footer{
+    height: auto;
+}
